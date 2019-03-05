@@ -67,7 +67,6 @@ class ViewController: UIViewController {
         alert.addTextField(configurationHandler: { tf in
             tf.placeholder = "สินค้า"
             tf.font = UIFont.systemFont(ofSize: 18)
-            tf.keyboardType = .phonePad
         })
         
         let btCancel = UIAlertAction(title: "Cancel", style: .cancel, handler: nil)
@@ -110,7 +109,6 @@ class ViewController: UIViewController {
         alert.addTextField(configurationHandler: { tf in
             tf.placeholder = "สินค้า"
             tf.font = UIFont.systemFont(ofSize: 18)
-            tf.keyboardType = .phonePad
         })
         
         let btCancel = UIAlertAction(title: "Cancel",
